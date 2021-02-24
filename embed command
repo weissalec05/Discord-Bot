@@ -1,0 +1,14 @@
+
+    if (command === 'embed') {
+        message.delete();
+        const embedSay = args.join(" ")
+        let noEmbedSay = new MessageEmbed()
+            .setColor(color)
+            .setDescription("Nichts wurde gesagt!")
+        if (!embedSay) return message.channel.send(noEmbedSay)
+        const embedembed = new MessageEmbed()
+            .setColor(color)
+            .setDescription(embedSay)
+
+        message.channel.send(embedembed)
+    }
