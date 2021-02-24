@@ -1,0 +1,52 @@
+{
+    "token": "YOUR_TOKEN_HERE",
+    "prefix": "-",
+    "bot_name": "Discord Bot",
+    "main_color": "0x2c95e6",
+    "bot_owners": ["ID 1","ID 2", "ID 3" ],
+
+    "anti_bad_word_toggle": true,
+    "anti_bad_words": [  "fuck",  "nigger",  "nigga",  "pussy", "f ucker", "cunt", "penis","dick","dickhead","fucking",""],
+
+    "counter": false,
+    "counter_channel": "CHANNEL_ID",
+    "counter_number_reach": 5,
+    
+    "blacklisted": ["ID 1","ID 2","ID 3"],
+    "whitelisted": ["ID 1","ID 2","ID 3"],
+    
+    "ignore_channel_toggle": false,
+    "ignore_channel_id": ["CHANNEL_ID","CHANNEL_ID"],
+    
+    "anti_link_toggle": true,
+    "mute_role": "mute",  
+
+    "command_cooldown_toggle": true,
+    "command_cooldown_time": "5",
+    
+    "xp_system_toggle": true,
+    "xp_system_rate": 10,
+    "xp_system_levelrate": 300,
+    
+    "suggest_system_toggle": true,
+    "suggest_system_channel": "",
+    
+    "report_system_toggle": false,
+    "report_system_channel": "REPORT CHANNEL ID",
+    
+    "mod_logs_toggle": false,
+    "mod_logs_channel": "MOD LOGS CHANNEL ID",
+    "mod_logs_color": "0xbd1751",
+    
+    "anti_selfbot_toggle": true,
+    "anti_self_bot_message": "No self bots allowed!",
+    
+    "status_type": "STREAMING",
+    "status_url": "https://www.twitch.tv/#",
+    "bot_status": ["Alec coded this ","Coded by Alec"],
+    "status_change_interval": "2",
+    
+    "welcome_message_enabled": false,
+    "welcome_message_server": "SERVER ID HERE",
+    "welcome_message_channel": "CHANNEL ID HERE"
+}
