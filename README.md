@@ -6,4 +6,4 @@ Install:
 3. Add your token in the Config.json and Customize the Bot
 4. Invite the Bot to your Discord
 5. Execute the host.bat
-6. Your bot in online!
+6. Your bot in online and ready to use!
