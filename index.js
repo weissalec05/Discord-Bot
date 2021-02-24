@@ -306,7 +306,7 @@ bot.on("message", async message => {
             .addField("Fun", "`hack` `say` `gay` `token` `calc` `covid` `meme` `dog` `cat` `ascii` `docs` `roast`")
             .addField("Management", "`invites` `announce` `slowmode` `lock` `modlogs` `unlock` `dm` `owners` `eval`")
             .addField("Music", "`play`, `join` `leave` `stop` `pause` `loop` `np`")
-            .addField('Information', "`stats` `membercount` `uptime` `config`")
+            .addField('Information', "`stats` `membercount` `uptime` `configfile`")
             .addField("Misc", "`snipe` `embed` `ping` `whois` `av` `suggest` `report` `id` `afk`")
             .addField("XP", "`level`")
 
@@ -344,7 +344,7 @@ bot.on("message", async message => {
         } else return message.channel.send(noPerms)
     }
 
-    if (command === 'config') {
+    if (command === 'configfile') {
         let xpsystem = "";
         if (xp_system_toggle === true) xpsystem = 'Enabled'
         if (xp_system_toggle === false) xpsystem = 'Disabled'
